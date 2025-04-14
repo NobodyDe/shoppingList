@@ -1,0 +1,26 @@
+#task {
+  display: flex;
+  align-items: center;
+  margin: 0 0 0;
+}
+
+#checkbox {
+  appearance: none;
+  height: 1rem;
+  width: 1rem;
+  margin: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#checkbox:hover {
+  border: 1px solid #b9c2d0;
+}
+
+#checkbox:checked {
+  background-image: url("/src/public/check.svg");
+  background-position: center;
+  background-color: #48e53a;
+  background-size: 0.9rem 0.9rem;
+}
