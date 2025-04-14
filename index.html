@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista de Compras</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" crossorigin src="/assets/index-BGT2KGt-.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bc1yrQZy.css">
+  </head>
+  <body>
+    <header>
+      <img src="/assets/logo-D9TKpz7K.svg" alt="Shopping List logo" />
+    </header>
+    <div class="container">
+      <h2>Compras da semana</h2>
+      <form id="add-task">
+        <input id="name-task" type="text" placeholder="Adicione um novo item" />
+        <button id="btn-add" type="submit">Adicionar item</button>
+      </form>
+      <ul id="list-taks">
+        <!-- <li>
+          <label id="task">
+            <input id="checkbox" type="checkbox" />
+            <p>Pão francês</p>
+          </label>
+          <button id="delete-task">
+            <ion-icon name="trash-outline"></ion-icon>
+          </button>
+        </li> -->
+      </ul>
+      <footer class="remove-task-hidden">
+        <img src="data:image/svg+xml,%3csvg%20width='20'%20height='20'%20viewBox='0%200%2020%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_3126_910)'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M9.43998%200.672311C8.7639%200.731551%208.34938%200.792231%207.88278%200.900191C5.60786%201.42659%203.59126%202.81123%202.2759%204.75001C1.21062%206.32017%200.660522%208.10801%200.660522%2010C0.660522%2011.969%201.25678%2013.8258%202.40742%2015.44C3.7175%2017.2779%205.70576%2018.6027%207.90998%2019.1066C9.41086%2019.4496%2011.0523%2019.4106%2012.52%2018.9971C14.7279%2018.375%2016.609%2016.982%2017.8636%2015.04C18.2023%2014.5158%2018.4457%2014.0384%2018.6995%2013.4C19.3759%2011.6995%2019.522%209.72791%2019.1065%207.91001C18.637%205.85579%2017.4589%203.99209%2015.8%202.67903C14.4018%201.57237%2012.7721%200.906191%2010.98%200.708811C10.706%200.678631%209.65264%200.653671%209.43998%200.672311ZM9.84388%205.30135C9.55192%205.35883%209.31072%205.61595%209.26092%205.92277C9.23486%206.08345%209.23304%2010.2565%209.25898%2010.4358C9.29482%2010.6837%209.44756%2010.892%209.67586%2011.0044C9.79826%2011.0647%209.82472%2011.07%209.99998%2011.07C10.1752%2011.07%2010.2017%2011.0647%2010.3241%2011.0044C10.5524%2010.892%2010.7051%2010.6837%2010.741%2010.4358C10.7669%2010.2565%2010.7651%206.08345%2010.739%205.92277C10.6878%205.60733%2010.4486%205.35853%2010.1401%205.30003C10.0196%205.27719%209.96536%205.27743%209.84388%205.30135ZM9.85954%2012.5597C9.60484%2012.5921%209.38812%2012.7085%209.19692%2012.9156C8.9555%2013.1772%208.8655%2013.5364%208.95078%2013.8982C9.01322%2014.1631%209.213%2014.4278%209.4614%2014.5747C9.59266%2014.6523%209.8437%2014.72%209.99998%2014.72C10.1563%2014.72%2010.4073%2014.6523%2010.5386%2014.5747C10.787%2014.4278%2010.9867%2014.1631%2011.0492%2013.8982C11.1345%2013.5364%2011.0445%2013.1772%2010.803%2012.9156C10.5499%2012.6414%2010.214%2012.5147%209.85954%2012.5597Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_3126_910'%3e%3crect%20width='20'%20height='20'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Warning Icon" />
+        <span>item foi removido da lista</span>
+        <button id="remove-task-btn">
+          <ion-icon name="close"></ion-icon>
+        </button>
+      </footer>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
